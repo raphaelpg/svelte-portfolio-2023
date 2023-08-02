@@ -1,8 +1,9 @@
-<script></script>
+<script>
+  import SectionTitle from "./components/SectionTitle.svelte";
+
+</script>
 
 <main>
-  <headerSubtitle>
-    <h1>Raphael Pinto</h1>
-  </headerSubtitle>
-  <h1>Fullstack Developer</h1>
+  <SectionTitle title="Raphael Pinto" color="--theme-secondary-color" />
+  <SectionTitle title="Fullstack Developer" color="--theme-primary-color" />
 </main>
