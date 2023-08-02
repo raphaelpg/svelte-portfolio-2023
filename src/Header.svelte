@@ -1,5 +1,7 @@
 <script></script>
 
-<h2>About</h2>
-<h2>Projects</h2>
-<h2>Contact</h2>
+<header>
+  <h3>About</h3>
+  <h3>Projects</h3>
+  <h3>Contact</h3>
+</header> 
