@@ -24,6 +24,8 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 0.4em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
   }
 
   img {
@@ -34,5 +36,6 @@
     min-width: 50px; 
     background-color: white;
     padding: 2px;
+    box-shadow: 5px 5px 10px 0px grey;
   }
 </style>

@@ -10,11 +10,11 @@
 </script>
 
 <projectItem>
-  <img src={img} alt="" />
+  <img src={img} alt={title} {title} />
   <projectItemRight>
     <h2>{title}</h2>
     <p>{description}</p>
-    <p>Stack:</p>
+    <h4>Stack:</h4>
     <ProjectStack {stack} />
     {#if url && url.length > 1}
       <a href={url} target="_blank">View &#10148;</a>
@@ -37,6 +37,10 @@
     margin: 0;
   }
 
+  h4 {
+    margin-bottom: 0;
+  }
+
   img {
     color: transparent;
     object-fit: contain;
@@ -46,8 +50,8 @@
     min-width: 250px;
     background-color: white;
     padding: 2px;
-    margin: 0px auto;
-  }
+    box-shadow: 5px 5px 10px 0px grey;
+  } 
 
   projectItemRight {
     display: flex;
