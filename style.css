@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+/* :global(html) {
+  scroll-behavior: smooth;
+} */
+
 html {
   --theme-primary-color: #333;
   --theme-secondary-color: #4b6cb7;
@@ -17,50 +21,4 @@ body {
   padding: 0 15%;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 15vh;
-}
-
-header * {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--theme-secondary-color);
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  transform: translateY(-15vh);
-}
-
-about {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 1em;
-}
-
-about img {
-  width: auto;
-  height: 250px;
-}
-
-aboutText {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-about p {
-  margin: 0;
 }

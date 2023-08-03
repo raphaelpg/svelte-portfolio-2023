@@ -29,6 +29,21 @@
     flex-direction: column;
     height: 90vh;
   }
+
+  about img {
+    width: auto;
+    height: 250px;
+  }
+
+  aboutText {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  about p {
+    margin: 0;
+  }
   
   section {
     display: flex;
@@ -39,6 +54,6 @@
   img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    box-shadow: 5px 5px 10px 0px grey;
+    /* box-shadow: 5px 5px 10px 0px grey; */
   }
 </style>

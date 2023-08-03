@@ -4,7 +4,7 @@
   import projects from "../data/projects.js";
 </script>
 
-<projectsContainer>
+<projectsContainer id="projects">
   <SectionTitle title="Projects" color="--theme-secondary-color" />
   <section>
     {#each projects as project}
