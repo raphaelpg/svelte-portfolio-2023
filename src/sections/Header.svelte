@@ -4,10 +4,13 @@
   let scrollPosition = 0;
   const initialNavbarHeight = 15;
   let navbarHeight = initialNavbarHeight;
+  const initialShadow = 0;
+  let updatedShadow = initialShadow;
 
   const handleScroll = () => {
     scrollPosition = window.scrollY;
     navbarHeight = scrollPosition > 0 ? 7 : initialNavbarHeight;
+    updatedShadow = scrollPosition > 0 ? 5 : initialShadow;
   };
 
   onMount(() => {
@@ -18,7 +21,10 @@
   })
 </script>
 
-<header style="height: {navbarHeight}vh;">
+<header style="
+  height: {navbarHeight}vh;
+  box-shadow: 0 0 {updatedShadow}px grey;
+">
   <a href="#about">
     <h3>About</h3>
   </a>
