@@ -1,7 +1,7 @@
 <script>
   import Header from "./Header.svelte";
   import Home from "./Home.svelte";
-  import Footer from "./Footer.svelte";
+  import Contact from "./Contact.svelte";
   import Projects from "./Projects.svelte";
   import About from "./About.svelte";
 </script>
@@ -10,4 +10,4 @@
 <Home />
 <About />
 <Projects />
-<Footer />
+<Contact />

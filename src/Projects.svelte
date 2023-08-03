@@ -22,10 +22,6 @@
 </projectsContainer>
 
 <style>
-  projectsContainer {
-    
-  }
-
   section {
     margin-top: 6em;
     display: flex;
