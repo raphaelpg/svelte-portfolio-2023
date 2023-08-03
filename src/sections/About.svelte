@@ -39,5 +39,6 @@
   img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    box-shadow: 5px 5px 10px 0px grey;
   }
 </style>
