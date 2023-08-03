@@ -10,6 +10,8 @@
     <p>
       I embarked on a journey to learn web development initially creating websites for friends as a freelancer. 
       As my skills evolved, I seized the opportunity to explore the exciting world of blockchain technology by attending a specialized course and participating in web3 hackathons, collaborating with talented individuals from diverse backgrounds.
+    </p>
+    <p>
       Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
       As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
     </p>
@@ -18,3 +20,14 @@
     </p>
   </aboutText>
 </about>
+
+<style>
+  about {
+    padding: 6em 0;
+  }
+
+  img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+</style>

@@ -1,22 +1,40 @@
 const projectsData = [
   {
-    img: 'portfolio23.webp',
+    img: 'sveltePortfolio.webp',
     title: 'Portfolio 2023',
     tag: 'Personal Project',
     description: [
-      'New version of my personnal portoflio, the main objective was to learn Next JS and Tailwind.',
+      'New version of my personnal portoflio, the main objective was to learn Svelte JS, which is very fast and simple for small projects.',
       'Solo project.',
     ],
     url: 'https://raphaelpg.github.io/nextjs-portfolio-2023/',
-    repo: 'https://github.com/raphaelpg/nextjs-portfolio-2023',
+    repo: 'https://github.com/raphaelpg/svelte-portfolio-2023',
     stack: [
-      'nextjs',
-      'tailwind',
-      'react',
-      'trypescript',
-      'copilot',
+      'svelte',
+      'vite',
+      'javascript',
+      'html',
+      'css'
     ],
   },
+  // {
+  //   img: 'portfolio23.webp',
+  //   title: 'Portfolio 2023',
+  //   tag: 'Personal Project',
+  //   description: [
+  //     'New version of my personnal portoflio, the main objective was to learn Next JS and Tailwind.',
+  //     'Solo project.',
+  //   ],
+  //   url: 'https://raphaelpg.github.io/nextjs-portfolio-2023/',
+  //   repo: 'https://github.com/raphaelpg/nextjs-portfolio-2023',
+  //   stack: [
+  //     'nextjs',
+  //     'tailwind',
+  //     'react',
+  //     'typescript',
+  //     'copilot',
+  //   ],
+  // },
   {
     img: 'uniswap.svg',
     title: 'EVM scripts: transaction parser',
@@ -184,7 +202,6 @@ const projectsData = [
     description: [
       'Front end of the production version of Irrigate, the platform to gather all NGO\'s and associations accross the world allowing users to send donations from anywhere to everywhere using DAI currency.',
       'The client is a static website made with Gatsby and deployed on IPFS through Fleek, desktop only for the moment.',
-      'It is currently work-in-progress.',
       'Solo project.',
     ],
     url: 'https://irrigateapp.xyz/',
@@ -205,7 +222,6 @@ const projectsData = [
     description: [
       'Back end of the production version of Irrigate, the platform to gather all NGO\'s and associations accross the world allowing users to send donations from anywhere to everywhere using DAI currency.',
       'The server is hosted on Ionos 1&1 and serves data as a REST API from a MongoDb Atlas database.',
-      'Current status is work in progress.',
       'Solo project.',
     ],
     url: 'https://www.future-space.org/api/causes',

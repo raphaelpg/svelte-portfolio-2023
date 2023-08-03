@@ -1,5 +1,6 @@
 <script>
   import ProjectStack from "./ProjectStack.svelte";
+  import ProjectTag from "./ProjectTag.svelte";
 
   export let img;
   export let title;
@@ -7,15 +8,21 @@
   export let url;
   export let repo;
   export let stack;
+  export let tag;
 </script>
 
 <projectItem>
   <img src={img} alt={title} {title} />
   <projectItemRight>
     <h2>{title}</h2>
-    <p>{description}</p>
+
+    {#each description as phrase}
+      <p>{phrase}</p>
+    {/each}
+    
     <h4>Stack:</h4>
     <ProjectStack {stack} />
+    
     {#if url && url.length > 1}
       <a href={url} target="_blank">View &#10148;</a>
     {/if}
@@ -23,6 +30,7 @@
       <a href={repo} target="_blank">Github &#10148;</a>
     {/if}
   </projectItemRight>
+  <ProjectTag {tag} />
 </projectItem>
 
 <style>
@@ -60,13 +68,17 @@
   }
 
   p {
-    margin-bottom: 0;
+    margin: 0;
   }
 
   a {
     text-decoration: none;
-    color: inherit;
+    color: var(--theme-secondary-color);
     font-weight: 600;
+  }
+  
+  a:hover {
+    color: var(--theme-special-color);
   }
 </style>
 

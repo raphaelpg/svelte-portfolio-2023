@@ -14,6 +14,7 @@
       stack={project?.stack}
       url={project?.url}
       repo={project?.repo}
+      tag={project?.tag}
     />
   {/each}
 </projectsContainer>

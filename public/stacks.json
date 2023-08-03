@@ -164,6 +164,11 @@
     "url": "https://www.mongodb.com/2",
     "display": "MongoDB"
   },
+  "nestjs": {
+    "filename": "nestjs.svg",
+    "url": "https://docs.nestjs.com/",
+    "display": "NestJS"
+  },
   "nextjs": {
     "filename": "nextjs.svg",
     "url": "https://nextjs.org/",
@@ -215,7 +220,7 @@
     "display": "PostgresSQL"
   },
   "react": {
-    "filename": "react.webp",
+    "filename": "react.svg",
     "url": "https://reactjs.org/docs/getting-started.html",
     "display": "React"
   },
@@ -248,6 +253,11 @@
     "filename": "superfluid.webp",
     "url": "https://www.superfluid.finance/",
     "display": "Superfluid"
+  },
+  "svelte": {
+    "filename": "svelte.svg",
+    "url": "https://svelte.dev/",
+    "display": "Svelte"
   },
   "tailwind": {
     "filename": "tailwind.svg",
