@@ -7,7 +7,9 @@
 </script>
 
 <Header />
-<Home />
-<About />
-<Projects />
-<Contact />
+<main>
+  <Home />
+  <About />
+  <Projects />
+  <Contact />
+</main>
