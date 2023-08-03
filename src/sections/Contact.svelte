@@ -5,7 +5,7 @@
   const year = new Date().getFullYear()
 </script>
 
-<contact>
+<contact id="contact">
   <section>
     <h3>Contact Me:</h3>
     <a href="https://github.com/raphaelpg/" target="_blank">

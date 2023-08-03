@@ -3,7 +3,7 @@
   let src = '/pro_2023.webp';
 </script>
 
-<about>
+<about id="about">
   <SectionTitle title="About" color="--theme-secondary-color"/>
   <section>
     <img {src} alt="Raphael Pinto" />
