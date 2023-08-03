@@ -1,9 +1,9 @@
 <script>
-  import Header from "./Header.svelte";
-  import Home from "./Home.svelte";
-  import Contact from "./Contact.svelte";
-  import Projects from "./Projects.svelte";
-  import About from "./About.svelte";
+  import Header from "./sections/Header.svelte";
+  import Home from "./sections/Home.svelte";
+  import Contact from "./sections/Contact.svelte";
+  import Projects from "./sections/Projects.svelte";
+  import About from "./sections/About.svelte";
 </script>
 
 <Header />

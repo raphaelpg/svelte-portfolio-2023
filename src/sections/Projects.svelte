@@ -1,7 +1,7 @@
 <script>
-  import ProjectItem from "./components/ProjectItem.svelte";
-  import SectionTitle from "./components/SectionTitle.svelte";
-  import projects from "./data/projects.js";
+  import ProjectItem from "../components/ProjectItem.svelte";
+  import SectionTitle from "../components/SectionTitle.svelte";
+  import projects from "../data/projects.js";
 </script>
 
 <projectsContainer>

@@ -1,5 +1,5 @@
 <script>
-  import SectionTitle from "./components/SectionTitle.svelte";
+  import SectionTitle from "../components/SectionTitle.svelte";
 </script>
 
 <main>
