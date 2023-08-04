@@ -2,15 +2,21 @@
   export let tag;
 
   const backgroundColors = {
-    "Personal Project": {color: "--theme-tag-blue"},
-    "Professional Project": {color: "--theme-tag-green"},
-    "Hackathon Project": {color: "--theme-tag-yellow"}
+    "Personal Project": {background: "--theme-tag-blue", color: "white"},
+    "Professional Project": {background: "--theme-tag-green", color: "white"},
+    "Hackathon Project": {background: "--theme-tag-yellow", color: "--theme-tag-black"}
   }
 
+  let tagBackground = `var(${backgroundColors[tag]?.background})` ?? 'white'
   let tagColor = `var(${backgroundColors[tag]?.color})` ?? 'white'
 </script>
 
-<p style="background-color: {tagColor}">{tag}</p>
+<p style="
+  background-color: {tagBackground};
+  color: {tagColor};
+  ">
+  {tag}
+</p>
 
 <style>
   p {

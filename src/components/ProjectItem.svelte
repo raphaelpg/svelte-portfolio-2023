@@ -20,7 +20,7 @@
       <p>{phrase}</p>
     {/each}
     
-    <h4>Stack:</h4>
+    <h3>Stack:</h3>
     <ProjectStack {stack} />
     
     {#if url && url.length > 1}

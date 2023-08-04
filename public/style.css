@@ -7,6 +7,7 @@ html {
   --theme-tag-yellow: rgb(234 179 8);
   --theme-tag-blue: rgb(37 99 235);
   --theme-tag-green: rgb(22 163 74);
+  --theme-tag-black: #000;
   scroll-behavior: smooth;
 }
 
