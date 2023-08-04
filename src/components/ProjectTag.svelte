@@ -3,7 +3,7 @@
 
   const backgroundColors = {
     "Personal Project": {background: "--theme-tag-blue", color: "white"},
-    "Professional Project": {background: "--theme-tag-green", color: "white"},
+    "Professional Project": {background: "--theme-tag-green", color: "--theme-tag-black"},
     "Hackathon Project": {background: "--theme-tag-yellow", color: "--theme-tag-black"}
   }
 
