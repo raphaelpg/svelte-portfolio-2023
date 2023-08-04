@@ -23,6 +23,7 @@
 
   img {
     object-fit: contain; 
+    height: 50px;
     width: auto; 
     max-height: 50px;
     min-height: 50px; 
