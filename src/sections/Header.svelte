@@ -31,7 +31,7 @@
   <a href="#projects">
     <h3>Projects</h3>
   </a>
-  <a href="#contact">
+  <a href="#about">
     <h3>Contact</h3>
   </a>
 </header> 

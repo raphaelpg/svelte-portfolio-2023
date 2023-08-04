@@ -1,5 +1,7 @@
 <script>
   import SectionTitle from "../components/SectionTitle.svelte";
+  import githubImage from '/github.webp';
+  import linkImage from '/linkedin.webp';
   let src = '/pro_2023.webp';
 </script>
 
@@ -19,6 +21,14 @@
       <p>
         When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
       </p>
+      <links>
+        <a href="https://github.com/raphaelpg/" target="_blank">
+          <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+          <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
+        </a>
+      </links>
     </aboutText>
   </section>
 </about>
@@ -55,5 +65,22 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     /* box-shadow: 5px 5px 10px 0px grey; */
+  }
+
+  links {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  links img {
+    object-fit: contain; 
+    width: auto; 
+    max-height: 50px;
+    min-height: 50px; 
+    min-width: 50px; 
+    background-color: white;
+    padding: 2px;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
   }
 </style>
