@@ -1,3 +1,4 @@
+const stacks = 
 {
   "aave": {
     "filename": "aave.svg",
@@ -315,3 +316,5 @@
     "display": "Wordpress"
   }
 }
+
+export default stacks;

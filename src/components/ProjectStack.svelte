@@ -1,13 +1,6 @@
 <script>
-  import { onMount } from "svelte";
+  import stacks from '../data/stacks.js';
   export let stack;
-
-  let stacks = [];
-  
-  onMount(async () => {
-    const res = await fetch('/stacks.json')
-    stacks = await res.json()
-  })
 </script>
 
 <stack>
