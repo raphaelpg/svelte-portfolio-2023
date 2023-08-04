@@ -2,13 +2,13 @@
   import SectionTitle from "../components/SectionTitle.svelte";
   import githubImage from '/github.webp';
   import linkImage from '/linkedin.webp';
-  let src = '/pro_2023.webp';
+  import profilePicture from'/pro_2023.webp';
 </script>
 
 <about id="about">
   <SectionTitle title="About" color="--theme-secondary-color"/>
   <section>
-    <img {src} alt="Raphael Pinto" />
+    <img src={profilePicture} alt="Raphael Pinto" />
     <aboutText>
       <p>
         I embarked on a journey to learn web development initially creating websites for friends as a freelancer. 
