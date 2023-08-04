@@ -27,3 +27,9 @@ main {
   max-width: 1080px;
   padding: 0 15%;
 }
+
+@media (max-width: 800px) {
+  main {
+    padding: 0 2%;
+  }
+}

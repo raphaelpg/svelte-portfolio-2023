@@ -14,23 +14,42 @@
         I embarked on a journey to learn web development initially creating websites for friends as a freelancer. 
         As my skills evolved, I seized the opportunity to explore the exciting world of blockchain technology by attending a specialized course and participating in web3 hackathons, collaborating with talented individuals from diverse backgrounds.
       </p>
-      <p>
-        Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
-        As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
-      </p>
-      <p>
-        When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
-      </p>
-      <links>
-        <a href="https://github.com/raphaelpg/" target="_blank">
-          <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
-        </a>
-        <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
-          <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
-        </a>
-      </links>
+      <large>
+        <p>
+          Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
+          As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
+        </p>
+        <p>
+          When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
+        </p>
+        <links>
+          <a href="https://github.com/raphaelpg/" target="_blank">
+            <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
+          </a>
+          <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+            <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
+          </a>
+        </links>
+      </large>
     </aboutText>
   </section>
+  <small>
+    <p>
+      Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
+      As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
+    </p>
+    <p>
+      When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
+    </p>
+    <links>
+      <a href="https://github.com/raphaelpg/" target="_blank">
+        <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
+      </a>
+      <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+        <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
+      </a>
+    </links>
+  </small>
 </about>
 
 <style>
@@ -53,6 +72,16 @@
 
   about p {
     margin: 0;
+  }
+
+  large {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  small {
+    display: none;
   }
   
   section {
@@ -82,5 +111,35 @@
     padding: 2px;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+  }
+
+  @media (max-width: 800px) {
+    about img {
+      width: auto;
+      height: 150px;
+    }
+
+    about p {
+      margin: 0;
+      font-size: 12px;
+    }
+
+    section {
+      display: flex;
+      gap: 1em;
+      padding: 0;
+    }
+
+    large {
+      display: none;
+    }
+
+    small {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-top: 1em;
+    }
+
   }
 </style>
