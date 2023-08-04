@@ -80,5 +80,27 @@
   a:hover {
     color: var(--theme-special-color);
   }
+
+  @media (max-width: 800px) {
+    projectItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: start;
+      gap: 1em;
+    }
+
+    img {
+      color: transparent;
+      object-fit: contain;
+      width: auto;
+      min-height: 50px;
+      max-width: 100%;
+      min-width: 250px;
+      background-color: white;
+      padding: 2px;
+      box-shadow: 5px 5px 10px 0px grey;
+    } 
+  }
 </style>
 

@@ -14,7 +14,7 @@
         I embarked on a journey to learn web development initially creating websites for friends as a freelancer. 
         As my skills evolved, I seized the opportunity to explore the exciting world of blockchain technology by attending a specialized course and participating in web3 hackathons, collaborating with talented individuals from diverse backgrounds.
       </p>
-      <large>
+      <largeScreen>
         <p>
           Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
           As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
@@ -30,10 +30,10 @@
             <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
           </a>
         </links>
-      </large>
+      </largeScreen>
     </aboutText>
   </section>
-  <small>
+  <smallScreen>
     <p>
       Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
       As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
@@ -49,7 +49,7 @@
         <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
       </a>
     </links>
-  </small>
+  </smallScreen>
 </about>
 
 <style>
@@ -74,13 +74,13 @@
     margin: 0;
   }
 
-  large {
+  largeScreen {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
 
-  small {
+  smallScreen {
     display: none;
   }
   
@@ -114,6 +114,10 @@
   }
 
   @media (max-width: 800px) {
+    about {
+      padding-bottom: 2em;
+    }
+    
     about img {
       width: auto;
       height: 150px;
@@ -121,7 +125,6 @@
 
     about p {
       margin: 0;
-      font-size: 12px;
     }
 
     section {
@@ -130,11 +133,11 @@
       padding: 0;
     }
 
-    large {
+    largeScreen {
       display: none;
     }
 
-    small {
+    smallScreen {
       display: flex;
       flex-direction: column;
       gap: 1em;
