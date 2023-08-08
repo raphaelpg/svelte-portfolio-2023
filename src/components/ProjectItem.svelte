@@ -79,6 +79,7 @@
   
   a:hover {
     color: var(--theme-special-color);
+    transition: 0.5s;
   }
 
   @media (max-width: 800px) {

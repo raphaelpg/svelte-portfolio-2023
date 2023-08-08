@@ -55,4 +55,14 @@
     justify-content: center;
     color: var(--theme-secondary-color);
   }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  h3:hover {
+    color: var(--theme-special-color);
+    transition: 0.5s;
+  }
 </style>
