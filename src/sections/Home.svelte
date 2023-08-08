@@ -1,10 +1,11 @@
 <script>
+  import TEXTS from "../data/text";
   import SectionTitle from "../components/SectionTitle.svelte";
 </script>
 
 <home>
-  <SectionTitle title="Raphael Pinto" color="--theme-secondary-color" />
-  <SectionTitle title="Fullstack Developer" color="--theme-primary-color" />
+  <SectionTitle title={TEXTS?.TITLE[0]} color="--theme-secondary-color" />
+  <SectionTitle title={TEXTS?.TITLE[1]} color="--theme-primary-color" />
 </home>
 
 <style>

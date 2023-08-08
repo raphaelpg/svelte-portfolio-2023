@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import TEXTS from '../data/text.js'
 
   let scrollPosition = 0;
   const initialNavbarHeight = 15;
@@ -26,13 +27,13 @@
   box-shadow: 0 0 {updatedShadow}px grey;
 ">
   <a href="#about">
-    <h3>About</h3>
+    <h3>{TEXTS?.NAVBAR[0]}</h3>
   </a>
   <a href="#projects">
-    <h3>Projects</h3>
+    <h3>{TEXTS?.NAVBAR[1]}</h3>
   </a>
   <a href="#about">
-    <h3>Contact</h3>
+    <h3>{TEXTS?.NAVBAR[2]}</h3>
   </a>
 </header> 
 

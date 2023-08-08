@@ -3,24 +3,23 @@
   import githubImage from '/github.webp';
   import linkImage from '/linkedin.webp';
   import profilePicture from'/pro_2023.webp';
+  import TEXTS from "../data/text";
 </script>
 
 <about id="about">
-  <SectionTitle title="About" color="--theme-secondary-color"/>
+  <SectionTitle title={TEXTS?.NAVBAR[0]} color="--theme-secondary-color"/>
   <section>
     <img src={profilePicture} alt="Raphael Pinto" />
     <aboutText>
       <p>
-        I embarked on a journey to learn web development initially creating websites for friends as a freelancer. 
-        As my skills evolved, I seized the opportunity to explore the exciting world of blockchain technology by attending a specialized course and participating in web3 hackathons, collaborating with talented individuals from diverse backgrounds.
+        {TEXTS?.ABOUT[0]}
       </p>
       <largeScreen>
         <p>
-          Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
-          As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
+          {TEXTS?.ABOUT[1]}
         </p>
         <p>
-          When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
+          {TEXTS?.ABOUT[2]}
         </p>
         <links>
           <a href="https://github.com/raphaelpg/" target="_blank">
@@ -35,11 +34,10 @@
   </section>
   <smallScreen>
     <p>
-      Today, I continue to pursue my passion for web development and I believe in delivering high-quality solutions, prioritizing the user experience above all.
-      As a team player, I thrive in collaborative environments and prioritize building trust among my peers.
+      {TEXTS?.ABOUT[1]}
     </p>
     <p>
-      When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature.
+      {TEXTS?.ABOUT[2]}
     </p>
     <links>
       <a href="https://github.com/raphaelpg/" target="_blank">

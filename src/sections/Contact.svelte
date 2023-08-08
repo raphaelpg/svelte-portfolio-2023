@@ -1,13 +1,13 @@
 <script>
   import githubImage from '/github.webp';
   import linkImage from '/linkedin.webp';
+  import TEXTS from '../data/text';
 
   const year = new Date().getFullYear()
 </script>
 
 <contact id="contact">
   <section>
-    <!-- <h3>Contact Me:</h3> -->
     <a href="https://github.com/raphaelpg/" target="_blank">
       <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
     </a>
@@ -15,7 +15,7 @@
       <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
     </a>
   </section>
-  <h2>Raphael Pinto {year}</h2>
+  <h2>{TEXTS?.FOOTER[0] + " " + year}</h2>
 </contact>
 
 <style>
