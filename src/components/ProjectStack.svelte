@@ -32,4 +32,10 @@
     padding: 2px;
     box-shadow: 5px 5px 10px 0px grey;
   }
+
+  img:hover {
+    box-shadow: 5px 5px 10px 0px var(--theme-special-color);
+    transition: 0.5s;
+  }
+
 </style>

@@ -23,7 +23,7 @@
         </p>
         <links>
           <a href="https://github.com/raphaelpg/" target="_blank">
-            <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
+            <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
           </a>
           <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
             <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
@@ -41,7 +41,7 @@
     </p>
     <links>
       <a href="https://github.com/raphaelpg/" target="_blank">
-        <img src={githubImage} title="Raphael Pinto Github" alt="Github" />
+        <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
       </a>
       <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
         <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
@@ -109,6 +109,15 @@
     padding: 2px;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+  }
+
+  links img:hover {
+    box-shadow: 5px 5px 10px 0px var(--theme-special-color);
+    transition: 0.5s;
+  }
+
+  .gitImg {
+    border-radius: 50%;
   }
 
   @media (max-width: 800px) {
