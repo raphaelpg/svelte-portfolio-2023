@@ -7,6 +7,11 @@
 </script>
 
 <Header />
+<div id="particles-js" style='
+width: 100%;  
+height: auto;
+position: absolute;
+'></div> 
 <main>
   <Home />
   <About />

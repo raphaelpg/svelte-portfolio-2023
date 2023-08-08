@@ -11,5 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "deploy": "npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "particles.js": "^2.0.0"
   }
 }

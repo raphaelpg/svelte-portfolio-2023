@@ -4,14 +4,17 @@
 
   let scrollPosition = 0;
   const initialNavbarHeight = 15;
-  let navbarHeight = initialNavbarHeight;
   const initialShadow = 0;
+  const initialBackground = 'transparent';
+  let navbarHeight = initialNavbarHeight;
   let updatedShadow = initialShadow;
+  let updatedBackground = initialBackground;
 
   const handleScroll = () => {
     scrollPosition = window.scrollY;
     navbarHeight = scrollPosition > 0 ? 7 : initialNavbarHeight;
     updatedShadow = scrollPosition > 0 ? 5 : initialShadow;
+    updatedBackground = scrollPosition > 0 ? 'white' : initialBackground;
   };
 
   onMount(() => {
@@ -25,6 +28,7 @@
 <header style="
   height: {navbarHeight}vh;
   box-shadow: 0 0 {updatedShadow}px grey;
+  background-color: {updatedBackground};
 ">
   <a href="#about">
     <h3>{TEXTS?.NAVBAR[0]}</h3>
@@ -46,7 +50,6 @@
     justify-content: space-evenly;
     width: 100%;
     transition: height 0.2s ease-in-out;
-    background-color: white;
     box-shadow: 0 0 5px grey;
   }
 
