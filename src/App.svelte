@@ -8,13 +8,22 @@
 
 <Header />
 <div id="particles-js" style='
-width: 100%;  
-height: auto;
-position: absolute;
-'></div> 
+  width: 100%;  
+  height: auto;
+  position: absolute;
+'></div>
 <main>
   <Home />
   <About />
   <Projects />
   <Contact />
 </main>
+
+<style>
+  @media (max-width: 800px) {
+    div {
+      display: none;
+    }
+  }
+
+</style>
