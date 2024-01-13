@@ -9,12 +9,17 @@
 
 <contact id="contact">
   <section>
-    <a href={URLS?.GITHUB_PROFILE} target="_blank">
-      <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
-    </a>
-    <a href={URLS?.LINKED_IN_PROFILE} target="_blank">
-      <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
-    </a>
+    <p>
+      {TEXTS?.CONTACT[0]}
+    </p>
+    <contactContainer>
+      <a href={URLS?.GITHUB_PROFILE} target="_blank">
+        <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
+      </a>
+      <a href={URLS?.LINKED_IN_PROFILE} target="_blank">
+        <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
+      </a>
+    </contactContainer>
   </section>
   <h2>{TEXTS?.FOOTER[0] + " " + year}</h2>
 </contact>
@@ -28,6 +33,13 @@
     align-items: center;
     gap: 10em;
     padding: 0px 0 10vh 0;
+  }
+
+  contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
   }
 
   img {
