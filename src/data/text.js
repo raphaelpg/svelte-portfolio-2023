@@ -11,7 +11,7 @@ const TEXTS = {
     "When I'm not immersed in coding, you can find me riding my motorbike, exploring new video games, indulging in movies, or escaping into the realms of science fiction literature."
   ],
   CONTACT: [
-    "<strong>Feel free to connect with me</strong> on GitHub or LinkedIn. Whether you have <strong>a project in mind</strong>, want to <strong>discuss a collaboration</strong>, or simply have a question, <strong>I'm always open to new connections and conversations !</strong>"
+    "<strong>Feel free to connect with me</strong> on GitHub or LinkedIn. Whether you have a project in mind, want to discuss a collaboration, or simply have a question, <strong>I'm always open to new connections and conversations !</strong>"
   ],
   FOOTER: [
     "Raphael Pinto"

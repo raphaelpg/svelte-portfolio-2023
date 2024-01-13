@@ -17,7 +17,7 @@
     <h2>{title}</h2>
 
     {#each description as phrase}
-      <p>{phrase}</p>
+      <p>{@html phrase}</p>
     {/each}
     
     <h3>Stack:</h3>
