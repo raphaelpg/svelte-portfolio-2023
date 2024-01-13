@@ -13,14 +13,14 @@
     <img src={profilePicture} alt="Raphael Pinto" />
     <aboutText>
       <p>
-        {TEXTS?.ABOUT[0]}
+        {@html TEXTS?.ABOUT[0]}
       </p>
       <largeScreen>
         <p>
-          {TEXTS?.ABOUT[1]}
+          {@html TEXTS?.ABOUT[1]}
         </p>
         <p>
-          {TEXTS?.ABOUT[2]}
+          {@html TEXTS?.ABOUT[2]}
         </p>
         <links>
           <a href={URLS?.GITHUB_PROFILE} target="_blank">
@@ -35,10 +35,10 @@
   </section>
   <smallScreen>
     <p>
-      {TEXTS?.ABOUT[1]}
+      {@html TEXTS?.ABOUT[1]}
     </p>
     <p>
-      {TEXTS?.ABOUT[2]}
+      {@html TEXTS?.ABOUT[2]}
     </p>
     <links>
       <a href={URLS?.GITHUB_PROFILE} target="_blank">

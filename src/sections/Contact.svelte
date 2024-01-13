@@ -10,7 +10,7 @@
 <contact id="contact">
   <section>
     <p>
-      {TEXTS?.CONTACT[0]}
+      {@html TEXTS?.CONTACT[0]}
     </p>
     <contactContainer>
       <a href={URLS?.GITHUB_PROFILE} target="_blank">
