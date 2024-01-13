@@ -220,6 +220,11 @@ const stacks =
     "url": "https://www.postgresql.org/",
     "display": "PostgresSQL"
   },
+  "radix": {
+    "filename": "radix.webp",
+    "url": "https://www.radix-ui.com/",
+    "display": "Radix"
+  },
   "react": {
     "filename": "react.svg",
     "url": "https://reactjs.org/docs/getting-started.html",
@@ -249,6 +254,11 @@ const stacks =
     "filename": "sql.webp",
     "url": "https://www.w3schools.com/sql/",
     "display": "SQL"
+  },
+  "styledcomponents": {
+    "filename": "styledcomponents.webp",
+    "url": "https://styled-components.com/",
+    "display": "Styled Components"
   },
   "superfluid": {
     "filename": "superfluid.webp",

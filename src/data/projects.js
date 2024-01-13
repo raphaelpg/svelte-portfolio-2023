@@ -1,5 +1,46 @@
 const projectsData = [
   {
+    img: 'yobale-screenshot-2023.webp',
+    title: 'Yobalé new version',
+    tag: 'Professional Project',
+    description: [
+      'New version of Yobalé car service startup website, including new sections inspired by best actors websites in the industry, an english version, a whatsapp wiget and Google and TripAdvisors reviews.',
+      'Refactoring of the class components into functional ones, using React Hooks and React Context API to increase the performance.',
+      'Also improving the SEO and connect it to Google Tag Manager.',
+      'Solo project.',
+    ],
+    url: 'https://yobale.sn',
+    repo: '',
+    stack: [
+      'react',
+      'radix',
+      'styledcomponents',
+      'javascript',
+      'html',
+      'css'
+    ],
+  },
+  {
+    img: 'espritvelo-screenshot-2023.webp',
+    title: 'Esprit Vélo update',
+    tag: 'Professional Project',
+    description: [
+      'Adding a new products catalogue in PHP allowing visitors to find accessories sold in the store.',
+      'Improve SEO thanks to Yoast SEO plugin.',
+      'Improve loading performance through images optimization.',
+      'Solo project.',
+    ],
+    url: 'https://www.espritvelo.fr/',
+    repo: '',
+    stack: [
+      'php',
+      'javascript',
+      'wordpress',
+      'html',
+      'css'
+    ],
+  },
+  {
     img: 'sveltePortfolio.webp',
     title: 'Portfolio 2023',
     tag: 'Personal Project',
@@ -486,7 +527,7 @@ const projectsData = [
       'Solo project.',
       '',
     ],
-    url: 'http://www.espritvelo.fr/',
+    url: 'https://www.espritvelo.fr/',
     repo: '',
     stack: [
       'wordpress',
