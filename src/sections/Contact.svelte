@@ -2,16 +2,17 @@
   import githubImage from '/github.webp';
   import linkImage from '/linkedin.webp';
   import TEXTS from '../data/text';
+  import URLS from '../data/urls';
 
   const year = new Date().getFullYear()
 </script>
 
 <contact id="contact">
   <section>
-    <a href="https://github.com/raphaelpg/" target="_blank">
+    <a href={URLS?.GITHUB_PROFILE} target="_blank">
       <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
     </a>
-    <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+    <a href={URLS?.LINKED_IN_PROFILE} target="_blank">
       <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
     </a>
   </section>

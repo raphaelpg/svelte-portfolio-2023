@@ -4,6 +4,7 @@
   import linkImage from '/linkedin.webp';
   import profilePicture from'/pro_2023.webp';
   import TEXTS from "../data/text";
+  import URLS from "../data/urls";
 </script>
 
 <about id="about">
@@ -22,10 +23,10 @@
           {TEXTS?.ABOUT[2]}
         </p>
         <links>
-          <a href="https://github.com/raphaelpg/" target="_blank">
+          <a href={URLS?.GITHUB_PROFILE} target="_blank">
             <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
           </a>
-          <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+          <a href={URLS?.LINKED_IN_PROFILE} target="_blank">
             <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
           </a>
         </links>
@@ -40,10 +41,10 @@
       {TEXTS?.ABOUT[2]}
     </p>
     <links>
-      <a href="https://github.com/raphaelpg/" target="_blank">
+      <a href={URLS?.GITHUB_PROFILE} target="_blank">
         <img class="gitImg" src={githubImage} title="Raphael Pinto Github" alt="Github" />
       </a>
-      <a href="https://www.linkedin.com/in/raphael-pinto-gregorio-660b2579/" target="_blank">
+      <a href={URLS?.LINKED_IN_PROFILE} target="_blank">
         <img src={linkImage} title="Raphael Pinto LinkedIn's profile" alt="LinkedIn">
       </a>
     </links>
