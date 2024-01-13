@@ -26,6 +26,7 @@ body a {
 main {
   max-width: 1080px;
   padding: 0 15%;
+  margin: 0 auto;
 }
 
 @media (max-width: 800px) {
