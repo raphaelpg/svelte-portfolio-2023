@@ -36,7 +36,7 @@
   <a href="#projects">
     <h3>{TEXTS?.NAVBAR[1]}</h3>
   </a>
-  <a href="#about">
+  <a href="#contact">
     <h3>{TEXTS?.NAVBAR[2]}</h3>
   </a>
 </header> 
