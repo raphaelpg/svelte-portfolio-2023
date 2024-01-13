@@ -284,7 +284,7 @@ const projectsData = [
     title: 'IPFS-Portfolio',
     tag: 'Personal Project',
     description: [
-      'My portfolio made with Gatsby and hosted on IPFS.',
+      'My portfolio made with <strong>Gatsby</strong> and hosted on <strong>IPFS</strong>.',
       'Deployment has been made with Fleek.',
       'First use of Typescript.',
       'Solo project.',
